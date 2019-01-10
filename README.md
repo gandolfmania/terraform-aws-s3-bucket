@@ -33,7 +33,7 @@ provider "aws" {
 module "s3_user" {
   source = "github.com/gandolfmania/terraform-aws-s3-bucket"
 
-  bucket_name = "my-bucket"
+  bucket_name = "first-terraform-s3-bucket"
 
   tag_environment   = "dev"
 }
